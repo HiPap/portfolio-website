@@ -909,7 +909,35 @@ a {
 }
 
 /* PRICING */
+.packageButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
+  width: 100%;
+  min-height: 50px;
+  margin-top: 28px;
+  padding: 14px 18px;
+  border-radius: 999px;
+
+  background: #f2c46b;
+  color: #111111;
+
+  font-size: 14px;
+  font-weight: 950;
+  text-align: center;
+
+  transition:
+    transform 0.22s ease,
+    background 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+.packageButton:hover {
+  transform: translateY(-2px);
+  background: #ffd982;
+  box-shadow: 0 16px 40px rgba(242, 196, 107, 0.18);
+}
 .pricingSection {
   background: #111111;
   color: #ffffff;

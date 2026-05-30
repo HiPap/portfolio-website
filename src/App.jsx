@@ -185,18 +185,14 @@ function App() {
                   ))}
                 </div>
 
-                {project.link ? (
-                  <a
-                    href={project.link}
-                    className="projectLink"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Demo
-                  </a>
-                ) : (
-                  <span className="projectLink disabledLink">Coming Soon</span>
-                )}
+                <a
+                  href={project.link}
+                  className="projectLink"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Demo
+                </a>
               </div>
             </article>
           ))}
@@ -308,6 +304,10 @@ function App() {
                   <li key={feature}>{feature}</li>
                 ))}
               </ul>
+
+              <a href="#contact" className="packageButton">
+                Enquire about {item.name}
+              </a>
             </article>
           ))}
         </div>
