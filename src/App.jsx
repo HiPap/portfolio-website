@@ -42,6 +42,18 @@ const projects = [
     ],
     link: "https://greenpropertymaintenance.netlify.app/",
   },
+  {
+  title: "Poseidon Roofing Project",
+  type: "Roofing Website Exemplar",
+  goal: "Built to generate roofing quote requests and establish trust through project showcases, guarantees and clear service information.",
+  features: [
+    "Roofing quote form",
+    "Emergency call CTA",
+    "Project gallery",
+    "Trust & guarantee sections",
+  ],
+  link: "https://poseidon-roofing.netlify.app",
+  },
 ];
 
 const packages = [

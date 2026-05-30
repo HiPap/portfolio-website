@@ -492,6 +492,12 @@ a {
     url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1300&q=85");
 }
 
+.visual3 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.32)),
+    url("https://images.unsplash.com/photo-1605450099279-533bd3ce379a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHJvb2Zpbmd8ZW58MHx8MHx8fDA%3D");
+}
+
 .projectInfo {
   position: relative;
   z-index: 2;
